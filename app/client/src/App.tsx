@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar.tsx";
 import SearchBar from "./components/SearchBar/SearchBar.tsx";
 import Results from "./components/Results/Results.tsx";
+import Home from "./pages/Home/Home.tsx";
 
 const App: React.FC = () => {
   const [words, setWords] = useState<string[]>([]);
@@ -31,9 +32,10 @@ const App: React.FC = () => {
     <div className={isDarkMode ? "dark-theme" : "light-theme"}>
       <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       <div className="content">
-        <h1>Welcome to Word Wizard! 🪄</h1>
+        {/* <h1>Welcome to Word Wizard! 🪄</h1>
         <SearchBar onSearch={fetchSimilarWords} />
-        <Results words={words} />
+        <Results words={words} /> */}
+        <Home />
       </div>
     </div>
   );
