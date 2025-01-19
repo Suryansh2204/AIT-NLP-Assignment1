@@ -10,7 +10,9 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme }) => {
   return (
     <nav className={`navbar ${isDarkMode ? "dark-navbar" : "light-navbar"}`}>
       <div className="site-title">🧐 Word Wizard</div>
-      {/* <ThemeToggle isDarkMode={isDarkMode} toggleTheme={toggleTheme} /> */}
+      <div style={{ marginRight: "3rem" }}>
+        {/* <ThemeToggle isDarkMode={isDarkMode} toggleTheme={toggleTheme} /> */}
+      </div>
     </nav>
   );
 };

@@ -10,7 +10,7 @@ body {
 .light-theme {
   background-color: #f5f5f5;
   color: #333;
-  height: 90vh;
+  height: 93vh;
   width: 100vw;
   text-align: center;
   padding-top: 60px; /* Account for navbar */
@@ -59,36 +59,6 @@ body {
   margin-top: 4rem;
 }
 /* Button Styles */
-.button {
-  padding: 10px 15px;
-  font-size: 14px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  background-color: #007bff;
-  color: white;
-  transition: 0.3s;
-}
-
-.button:hover {
-  background-color: #0056b3;
-}
-
-/* Search Input */
-.search-container {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.search-input {
-  width: 200px;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
 
 /* Search Results */
 .search-results {

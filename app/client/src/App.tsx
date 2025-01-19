@@ -32,9 +32,6 @@ const App: React.FC = () => {
     <div className={isDarkMode ? "dark-theme" : "light-theme"}>
       <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       <div className="content">
-        {/* <h1>Welcome to Word Wizard! 🪄</h1>
-        <SearchBar onSearch={fetchSimilarWords} />
-        <Results words={words} /> */}
         <Home />
       </div>
     </div>
