@@ -26,6 +26,7 @@ AIT-NLP-Assignment1/
 │   ├── 04 - GloVe (Gensim).ipynb
 │   ├── Report.ipynb
 │── README.md
+│── Report.pdf # Report.ipynb exported to pdf format
 ```
 
 ## Setup and Running the Application
